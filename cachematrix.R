@@ -36,7 +36,7 @@ cacheSolve <- function(x, ...) {
     }
         
         b <- x$get()
-        v <- x$set(b)
+        v <- solve(b)
         x$setCache()
     
     v
